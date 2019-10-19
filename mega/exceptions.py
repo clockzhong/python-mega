@@ -8,6 +8,7 @@ class MegaIncorrectPasswordExcetion(MegaException):
     """
     A incorrect password or email was given.
     """
+    pass
 
 class MegaRequestException(MegaException):
     """
